@@ -92,7 +92,7 @@
     ], 
     [
       "916.860", 
-      1, 
+      0, 
       -99
     ], 
     [
@@ -106,6 +106,6 @@
       -99
     ]
   ], 
-  "setFreq": 916.86, 
-  "usedDefault": false
+  "setFreq": 916.63, 
+  "usedDefault": true
 }
