@@ -7,7 +7,7 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-02T00:56:24.000Z", 
+      "timestamp": "2016-03-02T01:56:30.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
@@ -57,23 +57,13 @@
   "mmtune": {
     "scanDetails": [
       [
-        "916.560", 
-        5, 
-        -93
-      ], 
-      [
-        "916.580", 
-        5, 
-        -91
-      ], 
-      [
-        "916.600", 
-        5, 
-        -91
+        "916.660", 
+        1, 
+        -98
       ]
     ], 
-    "setFreq": 916.6, 
-    "timestamp": "2016-03-02T01:39:04.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-03-02T01:58:22.000Z", 
     "usedDefault": false
   }
 }
