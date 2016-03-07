@@ -57,13 +57,13 @@
   "mmtune": {
     "scanDetails": [
       [
-        "916.580", 
+        "916.660", 
         1, 
-        -97
+        -96
       ]
     ], 
-    "setFreq": 916.58, 
-    "timestamp": "2016-03-07T20:39:17.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-03-07T20:57:15.000Z", 
     "usedDefault": false
   }
 }
