@@ -7,31 +7,31 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-08T05:17:53.000Z", 
+      "timestamp": "2016-03-08T05:26:00.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 63.1, 
-    "clock": "2016-03-07T21:17:31-08:00"
+    "clock": "2016-03-07T21:25:38-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 68, 
+      "bg": 67, 
       "temp": "absolute", 
-      "snoozeBG": 64, 
-      "timestamp": "2016-03-08T05:21:22.000Z", 
-      "reason": "BG 68<80, avg delta 3.00>0; no high-temp to cancel", 
-      "eventualBG": 64, 
-      "mealAssist": "Off: Carbs: 48 Boluses: 3.6 Target: 115 Deviation: 41 BGI: -10.68", 
+      "snoozeBG": 80, 
+      "timestamp": "2016-03-08T05:27:00.000Z", 
+      "reason": "BG 67<80, avg delta 2.67>0; no high-temp to cancel", 
+      "eventualBG": 80, 
+      "mealAssist": "Off: Carbs: 48 Boluses: 3.6 Target: 115 Deviation: 35 BGI: -9.16", 
       "tick": -1
     }, 
     "iob": {
       "netbasalinsulin": -0.6, 
-      "timestamp": "2016-03-08T05:21:22.000Z", 
-      "basaliob": -0.459, 
-      "activity": 0.0267, 
+      "timestamp": "2016-03-08T05:26:59.000Z", 
+      "basaliob": -0.537, 
+      "activity": 0.0229, 
       "bolussnooze": 0, 
-      "iob": 0.562
+      "iob": 0.27
     }, 
     "enacted": {
       "requested": {
@@ -62,41 +62,41 @@
       [
         "916.560", 
         5, 
-        -55
+        -58
       ], 
       [
         "916.580", 
         5, 
-        -55
+        -56
       ], 
       [
         "916.600", 
         5, 
-        -55
+        -56
       ], 
       [
         "916.620", 
         5, 
-        -53
+        -56
       ], 
       [
         "916.640", 
         5, 
-        -55
+        -57
       ], 
       [
         "916.660", 
         5, 
-        -64
+        -58
       ], 
       [
         "916.680", 
-        3, 
-        -88
+        5, 
+        -63
       ]
     ], 
     "setFreq": 916.62, 
-    "timestamp": "2016-03-08T05:17:36.000Z", 
+    "timestamp": "2016-03-08T05:25:52.000Z", 
     "usedDefault": false
   }
 }
