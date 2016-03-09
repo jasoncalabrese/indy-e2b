@@ -7,93 +7,163 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-09T14:02:42.000Z", 
+      "timestamp": "2016-03-09T14:08:27.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 183.4, 
-    "clock": "2016-03-09T06:02:20-08:00"
+    "reservoir": 183.275, 
+    "clock": "2016-03-09T06:08:05-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 95, 
       "temp": "absolute", 
-      "snoozeBG": 146, 
-      "timestamp": "2016-03-09T14:07:05.000Z", 
-      "rate": 1.2, 
-      "reason": "Eventual BG 146>=120, temp 0.925<1.175U/hr", 
-      "eventualBG": 146, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 12 BGI: 2.4", 
-      "tick": "+6"
+      "snoozeBG": 128, 
+      "timestamp": "2016-03-09T14:11:36.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 128>110 but Delta +0 < Exp. Delta 2.2; cancel", 
+      "eventualBG": 128, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 5 BGI: 2.56", 
+      "tick": "+0"
     }, 
     "iob": {
-      "netbasalinsulin": -0.2, 
-      "timestamp": "2016-03-09T14:07:05.000Z", 
-      "basaliob": -0.487, 
-      "activity": -0.006, 
+      "netbasalinsulin": -0.15, 
+      "timestamp": "2016-03-09T14:11:36.000Z", 
+      "basaliob": -0.35, 
+      "activity": -0.0064, 
       "bolussnooze": 0, 
-      "iob": -0.487
+      "iob": -0.35
     }, 
     "enacted": {
       "requested": {
-        "duration": 30, 
-        "rate": 1.2, 
+        "duration": 0, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
       "bg": 95, 
       "temp": "absolute", 
-      "snoozeBG": 146, 
-      "timestamp": "2016-03-09T14:07:30.000Z", 
-      "reason": "Eventual BG 146>=120, temp 0.925<1.175U/hr", 
-      "rate": 1.175, 
-      "eventualBG": 146, 
+      "snoozeBG": 128, 
+      "timestamp": "2016-03-09T14:11:59.000Z", 
+      "reason": "Eventual BG 128>110 but Delta +0 < Exp. Delta 2.2; cancel", 
+      "rate": 0, 
+      "eventualBG": 128, 
       "recieved": true, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 12 BGI: 2.4", 
-      "tick": "+6"
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 5 BGI: 2.56", 
+      "tick": "+0"
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
+        "916.500", 
+        2, 
+        -94
+      ], 
+      [
+        "916.520", 
+        2, 
+        -95
+      ], 
+      [
+        "916.540", 
+        3, 
+        -93
+      ], 
+      [
         "916.560", 
-        5, 
-        -91
+        4, 
+        -85
       ], 
       [
         "916.580", 
         5, 
-        -89
+        -80
       ], 
       [
         "916.600", 
-        5, 
-        -88
+        4, 
+        -82
       ], 
       [
         "916.620", 
-        5, 
-        -89
+        4, 
+        -82
       ], 
       [
         "916.640", 
-        5, 
-        -88
+        4, 
+        -82
       ], 
       [
         "916.660", 
         5, 
-        -89
+        -80
       ], 
       [
         "916.680", 
+        4, 
+        -86
+      ], 
+      [
+        "916.700", 
         5, 
-        -92
+        -83
+      ], 
+      [
+        "916.720", 
+        2, 
+        -95
+      ], 
+      [
+        "916.740", 
+        3, 
+        -93
+      ], 
+      [
+        "916.760", 
+        2, 
+        -95
+      ], 
+      [
+        "916.780", 
+        3, 
+        -93
+      ], 
+      [
+        "916.800", 
+        2, 
+        -95
+      ], 
+      [
+        "916.820", 
+        3, 
+        -93
+      ], 
+      [
+        "916.840", 
+        3, 
+        -93
+      ], 
+      [
+        "916.860", 
+        4, 
+        -91
+      ], 
+      [
+        "916.880", 
+        3, 
+        -93
+      ], 
+      [
+        "916.900", 
+        5, 
+        -89
       ]
     ], 
-    "setFreq": 916.64, 
-    "timestamp": "2016-03-09T14:02:24.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-03-09T14:08:18.000Z", 
     "usedDefault": false
   }
 }
