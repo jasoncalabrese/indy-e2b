@@ -7,33 +7,31 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-10T12:38:54.000Z", 
+      "timestamp": "2016-03-10T12:42:32.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 145.8, 
-    "clock": "2016-03-10T04:38:32-08:00"
+    "reservoir": 145.775, 
+    "clock": "2016-03-10T04:42:10-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 119, 
       "temp": "absolute", 
-      "snoozeBG": 123, 
-      "timestamp": "2016-03-10T12:41:26.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 123>110 but Delta -1 < Exp. Delta 0; cancel", 
-      "eventualBG": 123, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 4 BGI: 0.24", 
-      "tick": -1
+      "snoozeBG": 119, 
+      "timestamp": "2016-03-10T12:47:00.000Z", 
+      "reason": "Eventual BG 119>110 but Delta +0 < Exp. Delta 0.2; no temp to cancel", 
+      "eventualBG": 119, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 0 BGI: 0.28", 
+      "tick": "+0"
     }, 
     "iob": {
       "netbasalinsulin": 0.2, 
-      "timestamp": "2016-03-10T12:41:25.000Z", 
-      "basaliob": -0.002, 
-      "activity": -0.0006, 
+      "timestamp": "2016-03-10T12:46:59.000Z", 
+      "basaliob": 0, 
+      "activity": -0.0007, 
       "bolussnooze": 0, 
-      "iob": -0.002
+      "iob": 0
     }, 
     "enacted": {
       "requested": {
@@ -59,7 +57,7 @@
       [
         "916.540", 
         5, 
-        -75
+        -72
       ], 
       [
         "916.560", 
@@ -68,8 +66,8 @@
       ], 
       [
         "916.580", 
-        5, 
-        -59
+        4, 
+        -67
       ], 
       [
         "916.600", 
@@ -99,16 +97,16 @@
       [
         "916.700", 
         5, 
-        -73
+        -72
       ], 
       [
-        "916.900", 
+        "916.840", 
         1, 
         -97
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-03-10T12:38:36.000Z", 
+    "timestamp": "2016-03-10T12:42:23.000Z", 
     "usedDefault": false
   }
 }
