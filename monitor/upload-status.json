@@ -16,40 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 111, 
+      "bg": 119, 
       "temp": "absolute", 
-      "snoozeBG": 110, 
-      "timestamp": "2016-03-11T05:37:45.000Z", 
-      "reason": "110 < 120; no temp to cancel", 
-      "eventualBG": 144, 
-      "mealAssist": "On: Carbs: 36 Boluses: 2.45 Target: 100 Deviation: 33 BGI: -7.2", 
-      "tick": "+7"
+      "snoozeBG": 129, 
+      "timestamp": "2016-03-11T05:41:25.000Z", 
+      "rate": 1.45, 
+      "reason": "Eventual BG 165>=120, no temp, setting 1.425U/hr", 
+      "eventualBG": 165, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 36 Boluses: 2.45 Target: 100 Deviation: 36 BGI: -6.4", 
+      "tick": "+8"
     }, 
     "iob": {
-      "netbasalinsulin": -0.1, 
-      "timestamp": "2016-03-11T05:37:44.000Z", 
-      "basaliob": -0.291, 
-      "activity": 0.018, 
+      "netbasalinsulin": -0.2, 
+      "timestamp": "2016-03-11T05:41:24.000Z", 
+      "basaliob": -0.277, 
+      "activity": 0.016, 
       "bolussnooze": 0, 
-      "iob": 0.422
+      "iob": 0.324
     }, 
     "enacted": {
       "requested": {
-        "duration": 0, 
-        "rate": 0, 
+        "duration": 30, 
+        "rate": 1.45, 
         "temp": "absolute"
       }, 
-      "bg": 102, 
+      "bg": 119, 
       "temp": "absolute", 
-      "snoozeBG": 90, 
-      "timestamp": "2016-03-11T05:27:06.000Z", 
-      "reason": "Eventual BG 90<110, but Avg. Delta 3.33 > Exp. Delta -8.1; cancel", 
-      "rate": 0, 
-      "eventualBG": 90, 
+      "snoozeBG": 129, 
+      "timestamp": "2016-03-11T05:41:46.000Z", 
+      "reason": "Eventual BG 165>=120, no temp, setting 1.425U/hr", 
+      "rate": 1.425, 
+      "eventualBG": 165, 
       "recieved": true, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 36 Boluses: 3.05 Target: 115 Deviation: 37 BGI: -8.84", 
-      "tick": "+2"
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 36 Boluses: 2.45 Target: 100 Deviation: 36 BGI: -6.4", 
+      "tick": "+8"
     }
   }, 
   "mmtune": {
