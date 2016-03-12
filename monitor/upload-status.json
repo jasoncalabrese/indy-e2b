@@ -16,12 +16,12 @@
   }, 
   "openaps": {
     "iob": {
-      "netbasalinsulin": 0.8, 
-      "timestamp": "2016-03-12T07:16:19.000Z", 
-      "basaliob": 1.141, 
-      "activity": 0.0127, 
-      "bolussnooze": 0.312, 
-      "iob": 1.654
+      "netbasalinsulin": 0.9, 
+      "timestamp": "2016-03-12T07:21:08.000Z", 
+      "basaliob": 1.225, 
+      "activity": 0.013, 
+      "bolussnooze": 0.279, 
+      "iob": 1.715
     }, 
     "enacted": {
       "requested": {
