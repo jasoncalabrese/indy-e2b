@@ -7,21 +7,21 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-12T07:17:40.000Z", 
+      "timestamp": "2016-03-12T07:22:53.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 96.975, 
-    "clock": "2016-03-11T23:17:19-08:00"
+    "reservoir": 96.825, 
+    "clock": "2016-03-11T23:22:32-08:00"
   }, 
   "openaps": {
     "iob": {
-      "netbasalinsulin": 0.9, 
-      "timestamp": "2016-03-12T07:21:08.000Z", 
-      "basaliob": 1.225, 
-      "activity": 0.013, 
-      "bolussnooze": 0.279, 
-      "iob": 1.715
+      "netbasalinsulin": 1.05, 
+      "timestamp": "2016-03-12T07:26:51.000Z", 
+      "basaliob": 1.292, 
+      "activity": 0.0135, 
+      "bolussnooze": 0.225, 
+      "iob": 1.744
     }, 
     "enacted": {
       "requested": {
@@ -45,48 +45,48 @@
   "mmtune": {
     "scanDetails": [
       [
+        "916.540", 
+        5, 
+        -74
+      ], 
+      [
         "916.560", 
-        4, 
-        -89
+        5, 
+        -63
       ], 
       [
         "916.580", 
-        3, 
-        -90
+        4, 
+        -69
       ], 
       [
         "916.600", 
         5, 
-        -82
+        -61
       ], 
       [
         "916.620", 
         5, 
-        -81
+        -61
       ], 
       [
         "916.640", 
         5, 
-        -80
+        -61
       ], 
       [
         "916.660", 
         5, 
-        -81
+        -62
       ], 
       [
         "916.680", 
         5, 
-        -84
-      ], 
-      [
-        "916.700", 
-        3, 
-        -94
+        -66
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-03-12T07:17:22.000Z", 
+    "timestamp": "2016-03-12T07:22:35.000Z", 
     "usedDefault": false
   }
 }
