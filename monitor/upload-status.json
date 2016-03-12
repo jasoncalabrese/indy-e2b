@@ -16,42 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 159, 
+      "bg": 161, 
       "temp": "absolute", 
-      "snoozeBG": 96, 
-      "timestamp": "2016-03-12T08:17:14.000Z", 
+      "snoozeBG": 112, 
+      "timestamp": "2016-03-12T08:21:33.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 21<110, Snooze BG 96, setting -0.42U/hr", 
-      "eventualBG": 21, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 1.5 Target: 115 Deviation: 11 BGI: -10.76", 
-      "tick": -3
+      "reason": "Eventual BG 49<110+2, and temp 0 < basal 0.4", 
+      "eventualBG": 49, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 1.5 Target: 115 Deviation: 22 BGI: -10.84", 
+      "tick": "+2"
     }, 
     "iob": {
-      "netbasalinsulin": 1.8, 
-      "timestamp": "2016-03-12T08:17:13.000Z", 
-      "basaliob": 0.772, 
-      "activity": 0.0269, 
-      "bolussnooze": 0.625, 
-      "iob": 1.859
+      "netbasalinsulin": 1.75, 
+      "timestamp": "2016-03-12T08:21:32.000Z", 
+      "basaliob": 0.642, 
+      "activity": 0.0271, 
+      "bolussnooze": 0.522, 
+      "iob": 1.681
     }, 
     "enacted": {
       "requested": {
-        "duration": 30, 
+        "duration": 0, 
         "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 159, 
+      "bg": 161, 
       "temp": "absolute", 
-      "snoozeBG": 96, 
-      "timestamp": "2016-03-12T08:17:36.000Z", 
-      "reason": "Eventual BG 21<110, Snooze BG 96, setting -0.42U/hr", 
+      "snoozeBG": 112, 
+      "timestamp": "2016-03-12T08:21:54.000Z", 
+      "reason": "Eventual BG 49<110+2, and temp 0 < basal 0.4", 
       "rate": 0, 
-      "eventualBG": 21, 
+      "eventualBG": 49, 
       "recieved": true, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 1.5 Target: 115 Deviation: 11 BGI: -10.76", 
-      "tick": -3
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 1.5 Target: 115 Deviation: 22 BGI: -10.84", 
+      "tick": "+2"
     }
   }, 
   "mmtune": {
