@@ -1,5 +1,24 @@
 [
   {
+    "_type": "Prime", 
+    "type": "manual", 
+    "_description": "Prime 2016-03-11T23:30:31 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-03-11T23:30:31", 
+    "_body": "", 
+    "fixed": 0.0, 
+    "_head": "030000005f", 
+    "amount": 9.5, 
+    "_date": "1fde370b10"
+  }, 
+  {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-03-11T23:29:24 head[2], body[0] op[0x21]", 
+    "timestamp": "2016-03-11T23:29:24", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "18dd170b10"
+  }, 
+  {
     "_type": "BGReceived", 
     "link": "c23647", 
     "_description": "BGReceived 2016-03-11T23:17:37 head[2], body[3] op[0x3f]", 
