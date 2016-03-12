@@ -7,21 +7,21 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-12T07:12:00.000Z", 
+      "timestamp": "2016-03-12T07:14:40.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 97.175, 
-    "clock": "2016-03-11T23:11:10-08:00"
+    "reservoir": 97.125, 
+    "clock": "2016-03-11T23:14:19-08:00"
   }, 
   "openaps": {
     "iob": {
-      "netbasalinsulin": 0.75, 
-      "timestamp": "2016-03-12T07:13:10.000Z", 
-      "basaliob": 1.105, 
-      "activity": 0.0124, 
-      "bolussnooze": 0.344, 
-      "iob": 1.644
+      "netbasalinsulin": 0.8, 
+      "timestamp": "2016-03-12T07:16:19.000Z", 
+      "basaliob": 1.141, 
+      "activity": 0.0127, 
+      "bolussnooze": 0.312, 
+      "iob": 1.654
     }, 
     "enacted": {
       "requested": {
@@ -46,13 +46,13 @@
     "scanDetails": [
       [
         "916.560", 
-        5, 
-        -86
+        3, 
+        -93
       ], 
       [
         "916.580", 
-        2, 
-        -93
+        4, 
+        -88
       ], 
       [
         "916.600", 
@@ -67,26 +67,26 @@
       [
         "916.640", 
         5, 
-        -81
+        -84
       ], 
       [
         "916.660", 
         5, 
-        -83
+        -85
       ], 
       [
         "916.680", 
         5, 
-        -84
+        -86
       ], 
       [
         "916.700", 
         5, 
-        -88
+        -89
       ]
     ], 
-    "setFreq": 916.64, 
-    "timestamp": "2016-03-12T07:11:23.000Z", 
+    "setFreq": 916.62, 
+    "timestamp": "2016-03-12T07:14:23.000Z", 
     "usedDefault": false
   }
 }
