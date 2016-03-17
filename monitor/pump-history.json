@@ -2,6 +2,63 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-03-17T02:44:35 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-03-17T02:44:35", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "23ec025110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-03-17T02:44:35 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-03-17T02:44:35", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "23ec025110"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-03-17T02:44:33 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-03-17T02:44:33", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "21ec025110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-03-17T02:44:33 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-03-17T02:44:33", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "21ec025110"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-03-17T02:44:31 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-03-17T02:44:31", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "1fec025110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-03-17T02:44:31 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-03-17T02:44:31", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "1fec025110"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-03-17T02:38:13 head[2], body[0] op[0x16]", 
     "timestamp": "2016-03-17T02:38:13", 
     "_body": "", 
@@ -2061,16 +2118,5 @@
     "_head": "7b08", 
     "rate": 0.7, 
     "_date": "06c0151010"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "manual", 
-    "_description": "Prime 2016-03-16T20:41:02 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-03-16T20:41:02", 
-    "_body": "", 
-    "fixed": 0.0, 
-    "_head": "0300000054", 
-    "amount": 8.4, 
-    "_date": "02e9341010"
   }
 ]
