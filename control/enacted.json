@@ -1,0 +1,18 @@
+{
+  "requested": {
+    "duration": 0, 
+    "rate": 0, 
+    "temp": "absolute"
+  }, 
+  "bg": 72, 
+  "temp": "absolute", 
+  "snoozeBG": 123, 
+  "timestamp": "2016-03-18T03:10:34.885672", 
+  "rate": 0.0, 
+  "reason": "BG 72<80, delta 4>0, cancel low temp", 
+  "eventualBG": 123, 
+  "recieved": false, 
+  "duration": 0, 
+  "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -7 BGI: 3.24", 
+  "tick": "+4"
+}
