@@ -1,5 +1,23 @@
 [
   {
+    "_type": "Sara6E", 
+    "_description": "Sara6E 2016-03-19T00:00:00 head[1], body[49] op[0x6e]", 
+    "timestamp": "2016-03-19T00:00:00", 
+    "_body": "05006e47ac09000003ac01ce3101de3300b900a4000000e600540300030400000000000000000000000000000000000000", 
+    "valid_date": "2016-03-18", 
+    "_head": "6e", 
+    "_date": "3290"
+  }, 
+  {
+    "_type": "ResultDailyTotal", 
+    "_description": "ResultDailyTotal 2016-03-19T00:00:00 head[5], body[3] op[0x07]", 
+    "timestamp": "2016-03-19T00:00:00", 
+    "_body": "000000", 
+    "valid_date": "2016-03-18", 
+    "_head": "07000003ac", 
+    "_date": "3290"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-03-18T23:47:46 head[2], body[0] op[0x16]", 
@@ -2693,24 +2711,5 @@
     "_head": "3305", 
     "rate": 0.125, 
     "_date": "09cd125210"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "link": "c23647", 
-    "_description": "BGReceived 2016-03-18T17:53:49 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-03-18T17:53:49", 
-    "_body": "c23647", 
-    "_head": "3f0b", 
-    "amount": 89, 
-    "_date": "31f5317210"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-03-18T17:53:49 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-03-18T17:53:49", 
-    "_body": "", 
-    "_head": "0a59", 
-    "amount": 89, 
-    "_date": "31f5317210"
   }
 ]
