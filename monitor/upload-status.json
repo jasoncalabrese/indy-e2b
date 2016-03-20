@@ -7,7 +7,7 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-20T07:53:50.000Z", 
+      "timestamp": "2016-03-20T07:59:50.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
@@ -57,8 +57,8 @@
     "scanDetails": [
       [
         "916.560", 
-        4, 
-        -78
+        5, 
+        -72
       ], 
       [
         "916.580", 
@@ -97,12 +97,12 @@
       ], 
       [
         "916.900", 
-        1, 
-        -98
+        2, 
+        -96
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2016-03-20T07:53:33.000Z", 
+    "timestamp": "2016-03-20T07:59:33.000Z", 
     "usedDefault": false
   }
 }
