@@ -1,1 +1,1 @@
-{"temp":"absolute","bg":104,"tick":"+5","eventualBG":149,"snoozeBG":142,"mealAssist":"On: 100%, 100%, Carbs: 12 Boluses: 0 Target: 100 Deviation: 7 BGI: 2.6","reason":"0.5U meal bolus remaining, Eventual BG 149>=120, temp 2.2 >~ req 1.97U/hr"}
+{"temp":"absolute","bg":106,"tick":"+2","eventualBG":94,"snoozeBG":92,"mealAssist":"On: 10%, 10%, Carbs: 12 Boluses: 0 Target: 113.5 Deviation: 5 BGI: 0.36","reason":"Meal assist: 12g, 0U, setting -0.645U/hr","duration":30,"rate":0}
