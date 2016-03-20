@@ -11,30 +11,28 @@
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 101.575, 
+    "reservoir": 101.55, 
     "clock": "2016-03-19T21:58:34-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 63, 
+      "bg": 66, 
       "temp": "absolute", 
-      "snoozeBG": 64, 
-      "timestamp": "2016-03-20T04:57:59.000Z", 
-      "rate": 0.7, 
-      "reason": "BG 63<80, delta 3>0; setting current basal of 0.7 as temp", 
-      "eventualBG": 64, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 52 Boluses: 1.75 Target: 115 Deviation: 14 BGI: -5.72", 
+      "snoozeBG": 86, 
+      "timestamp": "2016-03-20T05:02:44.000Z", 
+      "reason": "BG 66<80, delta 3>0, temp 0.675 ~ req 0.75U/hr", 
+      "eventualBG": 89, 
+      "mealAssist": "On: 17%, 17%, Carbs: 52 Boluses: 1.75 Target: 112.45 Deviation: 20 BGI: -4.72", 
       "tick": "+3"
     }, 
     "iob": {
-      "netbasalinsulin": -0.4, 
-      "timestamp": "2016-03-20T04:57:58.000Z", 
-      "activity": 0.0143, 
-      "basaliob": -0.313, 
-      "hightempinsulin": 0.75, 
-      "bolussnooze": 0.002, 
-      "iob": 0.158
+      "netbasalinsulin": -0.55, 
+      "timestamp": "2016-03-20T05:02:43.000Z", 
+      "activity": 0.0118, 
+      "basaliob": -0.406, 
+      "hightempinsulin": 0.7, 
+      "bolussnooze": 0, 
+      "iob": -0.006
     }, 
     "enacted": {
       "requested": {
