@@ -1,16 +1,84 @@
 {
-  "_id": "56efab4765110bbfc1928060",
-  "_type": "CalBGForPH",
-  "_description": "CalBGForPH 2016-03-21T01:04:02 head[2], body[0] op[0x0a]",
-  "timestamp": "2016-03-21T01:04:02-07:00",
-  "_body": "",
-  "_head": "0a10",
-  "amount": 272,
-  "_date": "02c4217590",
-  "eventType": "BG Check",
+  "_id": "56efac0565110bbfc1928062",
+  "bolus": {
+    "_type": "Bolus",
+    "_description": "Bolus 2016-03-21T01:04:50 head[8], body[0] op[0x01]",
+    "timestamp": "2016-03-21T01:04:50-07:00",
+    "_body": "",
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus",
+        "_description": "UnabsorbedInsulinBolus unknown head[23], body[0] op[0x5c]",
+        "_body": "",
+        "_head": "5c170c00d03246d01c5ad04864d00c78d0028cd002d2d0",
+        "data": [
+          {
+            "amount": 0.3,
+            "age": 256
+          },
+          {
+            "amount": 1.25,
+            "age": 326
+          },
+          {
+            "amount": 0.7,
+            "age": 346
+          },
+          {
+            "amount": 1.8,
+            "age": 356
+          },
+          {
+            "amount": 0.3,
+            "age": 376
+          },
+          {
+            "amount": 0.05,
+            "age": 396
+          },
+          {
+            "amount": 0.05,
+            "age": 466
+          }
+        ],
+        "_date": ""
+      }
+    ],
+    "programmed": 1,
+    "duration": 0,
+    "amount": 1,
+    "unabsorbed": 0,
+    "_head": "0100280028000000",
+    "type": "normal",
+    "_date": "32c4211510"
+  },
+  "timestamp": "2016-03-21T01:04:50-07:00",
+  "created_at": "2016-03-21T01:04:50-07:00",
+  "ratio": "16",
+  "bg": "272",
   "glucose": 272,
-  "glucoseType": "Finger",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
-  "created_at": "2016-03-21T01:04:02-07:00",
+  "glucoseType": "BolusWizard",
+  "wizard": {
+    "_type": "BolusWizard",
+    "bg": 272,
+    "_description": "BolusWizard 2016-03-21T01:04:50 head[2], body[15] op[0x5b]",
+    "timestamp": "2016-03-21T01:04:50-07:00",
+    "_body": "005100a0506e4c0000000000004c78",
+    "carb_input": 0,
+    "bg_target_high": 120,
+    "sensitivity": 80,
+    "carb_ratio": 16,
+    "food_estimate": 0,
+    "unabsorbed_insulin_total": 0,
+    "correction_estimate": 1.9,
+    "bg_target_low": 110,
+    "_head": "5b10",
+    "bolus_estimate": 1.9,
+    "_date": "32c4011510"
+  },
+  "eventType": "Correction Bolus",
+  "insulin": 1,
+  "notes": "Normal bolus with wizard.\nProgrammed bolus 1\nDelivered bolus 1\nPercent delivered:  100%\nFood estimate 0\nCorrection estimate 1.9\nBolus estimate 1.9\nTarget low 110\nTarget high 120\nHypothetical glucose delta -80\nGlucose was: 272",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
   "enteredBy": "openaps://medtronic/723"
 }
