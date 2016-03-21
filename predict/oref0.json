@@ -1,1 +1,1 @@
-{"temp":"absolute","bg":137,"tick":"+4","eventualBG":95,"snoozeBG":101,"mealAssist":"On: 25%, 25%, Carbs: 90 Boluses: 4.35 Target: 111.25 Deviation: 50 BGI: -13.8","reason":"1.4U meal bolus remaining, Meal assist: 90g, 4.35U, 29m@-1.170 = -0.566 < req -0.25625-0.2U","duration":30,"rate":0.65}
+{"temp":"absolute","bg":138,"tick":"+1","eventualBG":79,"snoozeBG":103,"mealAssist":"On: 8%, 8%, Carbs: 90 Boluses: 4.35 Target: 113.80000000000001 Deviation: 42 BGI: -13.04","reason":"1.4U meal bolus remaining, Meal assist: 90g, 4.35U, temp 0.65 ~< req 0.63U/hr"}
