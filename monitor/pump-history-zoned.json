@@ -1,5 +1,55 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-03-22T06:05:22 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-03-22T06:05:22-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c082033d03879d0", 
+        "data": [
+          {
+            "amount": 0.8, 
+            "age": 307
+          }, 
+          {
+            "amount": 1.4, 
+            "age": 377
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.2, 
+    "duration": 0, 
+    "amount": 0.2, 
+    "unabsorbed": 0.0, 
+    "_head": "0100080008000000", 
+    "type": "normal", 
+    "_date": "16c5261610"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_description": "BolusWizard 2016-03-22T06:05:22 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-03-22T06:05:22-07:00", 
+    "_body": "04500064506e000010000000001078", 
+    "carb_input": 4, 
+    "bg_target_high": 120, 
+    "sensitivity": 80, 
+    "carb_ratio": 10.0, 
+    "food_estimate": 0.4, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 110, 
+    "_head": "5b00", 
+    "bolus_estimate": 0.4, 
+    "_date": "16c5061610"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-03-22T05:59:39 head[2], body[0] op[0x16]", 
     "timestamp": "2016-03-22T05:59:39-07:00", 
@@ -1515,23 +1565,5 @@
     "_head": "3344", 
     "rate": 1.7, 
     "_date": "11c6005610"
-  }, 
-  {
-    "_type": "Sara6E", 
-    "_description": "Sara6E 2016-03-22T00:00:00 head[1], body[49] op[0x6e]", 
-    "timestamp": "2016-03-22T00:00:00-07:00", 
-    "_body": "0550c059100c000004c3025b31026833008d010400aa00a200180403020204000000000000000037370000000000000000", 
-    "_head": "6e", 
-    "valid_date": "2016-03-21", 
-    "_date": "3590"
-  }, 
-  {
-    "_type": "ResultDailyTotal", 
-    "_description": "ResultDailyTotal 2016-03-22T00:00:00 head[5], body[3] op[0x07]", 
-    "timestamp": "2016-03-22T00:00:00-07:00", 
-    "_body": "000000", 
-    "_head": "07000004c3", 
-    "valid_date": "2016-03-21", 
-    "_date": "3590"
   }
 ]
