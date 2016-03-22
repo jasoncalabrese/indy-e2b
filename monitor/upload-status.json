@@ -7,32 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-22T07:19:43.000Z", 
+      "timestamp": "2016-03-22T07:23:43.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 150.35, 
-    "clock": "2016-03-22T00:18:48-07:00"
+    "reservoir": 150.2, 
+    "clock": "2016-03-22T00:22:47-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 267, 
+      "bg": 270, 
       "temp": "absolute", 
-      "snoozeBG": 234, 
-      "timestamp": "2016-03-22T07:22:48.000Z", 
-      "reason": "Eventual BG 184>=120, max_iob 2, adj. req. rate:2.0 to maxSafeBasal:1.7, temp 1.7 >~ req 1.7U/hr", 
-      "eventualBG": 184, 
-      "mealAssist": "On: 42%, 100%, Carbs: 0 Boluses: 1.4 Target: 100 Deviation: 35 BGI: -6.52", 
-      "tick": "+5"
+      "snoozeBG": 220, 
+      "timestamp": "2016-03-22T07:27:43.000Z", 
+      "reason": "Eventual BG 146>=120, temp 1.7 >~ req 1.58U/hr", 
+      "eventualBG": 146, 
+      "mealAssist": "On: 25%, 100%, Carbs: 0 Boluses: 1.4 Target: 100 Deviation: 30 BGI: -7.16", 
+      "tick": "+3"
     }, 
     "iob": {
-      "netbasalinsulin": 1.4, 
-      "timestamp": "2016-03-22T07:22:48.000Z", 
-      "activity": 0.0163, 
-      "basaliob": 1.222, 
-      "hightempinsulin": 1.85, 
-      "bolussnooze": 1.137, 
-      "iob": 2.55
+      "netbasalinsulin": 1.5, 
+      "timestamp": "2016-03-22T07:27:42.000Z", 
+      "activity": 0.0179, 
+      "basaliob": 1.274, 
+      "hightempinsulin": 1.95, 
+      "bolussnooze": 1.047, 
+      "iob": 2.578
     }, 
     "enacted": {
       "requested": {
@@ -54,9 +54,25 @@
     }
   }, 
   "mmtune": {
-    "scanDetails": [], 
-    "setFreq": 916.63, 
-    "timestamp": "2016-03-22T07:19:26.000Z", 
-    "usedDefault": true
+    "scanDetails": [
+      [
+        "916.680", 
+        1, 
+        -97
+      ], 
+      [
+        "916.700", 
+        2, 
+        -87
+      ], 
+      [
+        "916.820", 
+        1, 
+        -98
+      ]
+    ], 
+    "setFreq": 916.7, 
+    "timestamp": "2016-03-22T07:23:25.000Z", 
+    "usedDefault": false
   }
 }
