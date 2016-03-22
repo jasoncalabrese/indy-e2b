@@ -16,43 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 269, 
+      "bg": 271, 
       "temp": "absolute", 
-      "snoozeBG": 164, 
-      "timestamp": "2016-03-22T07:55:30.000Z", 
-      "rate": 0.75, 
-      "reason": "Eventual BG 131>=120, temp 0.45<0.75U/hr", 
-      "eventualBG": 131, 
+      "snoozeBG": 168, 
+      "timestamp": "2016-03-22T08:05:06.000Z", 
+      "rate": 1.1, 
+      "reason": "Eventual BG 141>=120, temp 0.75<1.08U/hr", 
+      "eventualBG": 141, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 1.4 Target: 115 Deviation: 26 BGI: -10.8", 
-      "tick": -2
+      "mealAssist": "Off: Carbs: 0 Boluses: 1.4 Target: 115 Deviation: 33 BGI: -10.96", 
+      "tick": "+0"
     }, 
     "iob": {
-      "netbasalinsulin": 1.9, 
-      "timestamp": "2016-03-22T07:55:29.000Z", 
-      "activity": 0.027, 
-      "basaliob": 1.039, 
-      "hightempinsulin": 2.15, 
-      "bolussnooze": 0.271, 
-      "iob": 2.053
+      "netbasalinsulin": 2, 
+      "timestamp": "2016-03-22T08:05:06.000Z", 
+      "activity": 0.0274, 
+      "basaliob": 1.053, 
+      "hightempinsulin": 2.2, 
+      "bolussnooze": 0.229, 
+      "iob": 2.036
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.75, 
+        "rate": 1.1, 
         "temp": "absolute"
       }, 
-      "bg": 269, 
+      "bg": 271, 
       "temp": "absolute", 
-      "snoozeBG": 164, 
-      "timestamp": "2016-03-22T07:55:41.000Z", 
-      "reason": "Eventual BG 131>=120, temp 0.45<0.75U/hr", 
+      "snoozeBG": 168, 
+      "timestamp": "2016-03-22T08:05:30.000Z", 
+      "reason": "Eventual BG 141>=120, temp 0.75<1.08U/hr", 
       "rate": 0.75, 
-      "eventualBG": 131, 
-      "recieved": true, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 1.4 Target: 115 Deviation: 26 BGI: -10.8", 
-      "tick": -2
+      "eventualBG": 141, 
+      "recieved": false, 
+      "duration": 21, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 1.4 Target: 115 Deviation: 33 BGI: -10.96", 
+      "tick": "+0"
     }
   }, 
   "mmtune": {
