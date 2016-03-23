@@ -7,34 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-23T03:49:40.000Z", 
+      "timestamp": "2016-03-23T03:52:41.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 128.825, 
-    "clock": "2016-03-22T20:48:45-07:00"
+    "clock": "2016-03-22T20:51:45-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 120, 
+      "bg": 115, 
       "temp": "absolute", 
-      "snoozeBG": 67, 
-      "timestamp": "2016-03-23T03:50:52.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 59<110, Snooze BG 67, setting -0.44U/hr", 
-      "eventualBG": 59, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 52 Boluses: 3.5 Target: 115 Deviation: 20 BGI: -11.4", 
-      "tick": -3
+      "snoozeBG": 66, 
+      "timestamp": "2016-03-23T03:54:03.000Z", 
+      "reason": "Eventual BG 62<110, Snooze BG 66, setting -0.58U/hr, but 29m left and 0 ~ req 0U/hr: no action required", 
+      "eventualBG": 62, 
+      "mealAssist": "Off: Carbs: 52 Boluses: 3.5 Target: 115 Deviation: 18 BGI: -10.96", 
+      "tick": -5
     }, 
     "iob": {
       "netbasalinsulin": -0.65, 
-      "timestamp": "2016-03-23T03:50:51.000Z", 
-      "activity": 0.0285, 
-      "basaliob": -0.249, 
+      "timestamp": "2016-03-23T03:54:02.000Z", 
+      "activity": 0.0274, 
+      "basaliob": -0.297, 
       "hightempinsulin": 0.2, 
-      "bolussnooze": 0.063, 
-      "iob": 1.017
+      "bolussnooze": 0.035, 
+      "iob": 0.887
     }, 
     "enacted": {
       "requested": {
@@ -59,8 +57,8 @@
     "scanDetails": [
       [
         "916.540", 
-        5, 
-        -60
+        2, 
+        -84
       ], 
       [
         "916.560", 
@@ -90,16 +88,16 @@
       [
         "916.660", 
         5, 
-        -57
+        -58
       ], 
       [
         "916.680", 
         5, 
-        -66
+        -67
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-03-23T03:49:22.000Z", 
+    "timestamp": "2016-03-23T03:52:23.000Z", 
     "usedDefault": false
   }
 }
