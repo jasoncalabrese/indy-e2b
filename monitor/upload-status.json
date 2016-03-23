@@ -16,41 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 118, 
+      "bg": 122, 
       "temp": "absolute", 
-      "snoozeBG": 137, 
-      "timestamp": "2016-03-23T04:37:37.000Z", 
-      "reason": "Eventual BG 143>=120, temp 1.25 >~ req 1.344U/hr", 
-      "eventualBG": 143, 
-      "mealAssist": "On: 25%, 25%, Carbs: 34 Boluses: 2.4 Target: 111.25 Deviation: 22 BGI: -4.4", 
-      "tick": "+3"
+      "snoozeBG": 142, 
+      "timestamp": "2016-03-23T04:42:49.000Z", 
+      "rate": 1.5, 
+      "reason": "Eventual BG 150>=120, temp 1.25<1.499U/hr", 
+      "eventualBG": 150, 
+      "duration": 30, 
+      "mealAssist": "On: 33%, 33%, Carbs: 34 Boluses: 2.4 Target: 110.05 Deviation: 24 BGI: -3.84", 
+      "tick": "+4"
     }, 
     "iob": {
-      "netbasalinsulin": -0.45, 
-      "timestamp": "2016-03-23T04:37:36.000Z", 
-      "activity": 0.011, 
-      "basaliob": -0.328, 
-      "hightempinsulin": 0.3, 
+      "netbasalinsulin": -0.4, 
+      "timestamp": "2016-03-23T04:42:48.000Z", 
+      "activity": 0.0096, 
+      "basaliob": -0.263, 
+      "hightempinsulin": 0.35, 
       "bolussnooze": 0, 
-      "iob": 0.036
+      "iob": 0.045
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 1.25, 
+        "rate": 1.5, 
         "temp": "absolute"
       }, 
-      "bg": 115, 
+      "bg": 122, 
       "temp": "absolute", 
-      "snoozeBG": 134, 
-      "timestamp": "2016-03-23T04:33:40.000Z", 
-      "reason": "Eventual BG 139>=120, temp 0.85<1.257U/hr", 
-      "rate": 1.25, 
-      "eventualBG": 139, 
+      "snoozeBG": 142, 
+      "timestamp": "2016-03-23T04:43:14.000Z", 
+      "reason": "Eventual BG 150>=120, temp 1.25<1.499U/hr", 
+      "rate": 1.5, 
+      "eventualBG": 150, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "On: 22%, 22%, Carbs: 34 Boluses: 2.4 Target: 111.7 Deviation: 23 BGI: -5.16", 
-      "tick": "+6"
+      "mealAssist": "On: 33%, 33%, Carbs: 34 Boluses: 2.4 Target: 110.05 Deviation: 24 BGI: -3.84", 
+      "tick": "+4"
     }
   }, 
   "mmtune": {
