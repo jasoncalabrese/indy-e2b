@@ -16,41 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 104, 
+      "bg": 115, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2016-03-24T09:58:21.000Z", 
-      "reason": "Eventual BG 101<110, setting -0.22U/hr, but 22m left and 0 ~ req 0U/hr: no action required", 
-      "eventualBG": 101, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -10 BGI: 1.64", 
-      "tick": "+3"
+      "snoozeBG": 134, 
+      "timestamp": "2016-03-24T10:02:50.000Z", 
+      "rate": 1.05, 
+      "reason": "Eventual BG 136>=120, temp 0<1.03U/hr", 
+      "eventualBG": 136, 
+      "duration": 30, 
+      "mealAssist": "On: 20%, 20%, Carbs: 0 Boluses: 0 Target: 112 Deviation: 10 BGI: 1.52", 
+      "tick": "+11"
     }, 
     "iob": {
-      "netbasalinsulin": -0.6, 
-      "timestamp": "2016-03-24T09:58:20.000Z", 
-      "activity": -0.0041, 
-      "basaliob": -0.084, 
-      "hightempinsulin": 0.3, 
+      "netbasalinsulin": -0.7, 
+      "timestamp": "2016-03-24T10:02:50.000Z", 
+      "activity": -0.0038, 
+      "basaliob": -0.116, 
+      "hightempinsulin": 0.25, 
       "bolussnooze": 0, 
-      "iob": -0.084
+      "iob": -0.116
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0, 
+        "rate": 1.05, 
         "temp": "absolute"
       }, 
-      "bg": 104, 
+      "bg": 115, 
       "temp": "absolute", 
-      "snoozeBG": 89, 
-      "timestamp": "2016-03-24T09:46:03.000Z", 
-      "reason": "Eventual BG 89<110, setting -0.82U/hr", 
-      "rate": 0, 
-      "eventualBG": 89, 
+      "snoozeBG": 134, 
+      "timestamp": "2016-03-24T10:03:11.000Z", 
+      "reason": "Eventual BG 136>=120, temp 0<1.03U/hr", 
+      "rate": 1.05, 
+      "eventualBG": 136, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -17 BGI: 1.88", 
-      "tick": -3
+      "mealAssist": "On: 20%, 20%, Carbs: 0 Boluses: 0 Target: 112 Deviation: 10 BGI: 1.52", 
+      "tick": "+11"
     }
   }, 
   "mmtune": {
