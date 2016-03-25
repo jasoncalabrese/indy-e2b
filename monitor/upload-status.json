@@ -16,41 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 129, 
+      "bg": 141, 
       "temp": "absolute", 
-      "snoozeBG": 149, 
-      "timestamp": "2016-03-25T04:57:20.000Z", 
-      "reason": "0.1U meal bolus remaining, Eventual BG 183>=120, temp 1.95 >~ req 1.955U/hr", 
-      "eventualBG": 183, 
-      "mealAssist": "On: 100%, 100%, Carbs: 36 Boluses: 2.25 Target: 100 Deviation: 34 BGI: -5.28", 
-      "tick": "+6"
+      "snoozeBG": 163, 
+      "timestamp": "2016-03-25T05:03:23.000Z", 
+      "rate": 2.15, 
+      "reason": "Eventual BG 192>=120, temp 1.95<2.17U/hr", 
+      "eventualBG": 192, 
+      "duration": 30, 
+      "mealAssist": "On: 72%, 72%, Carbs: 36 Boluses: 2.25 Target: 104.2 Deviation: 40 BGI: -4.8", 
+      "tick": "+12"
     }, 
     "iob": {
-      "netbasalinsulin": -0.75, 
-      "timestamp": "2016-03-25T04:57:20.000Z", 
-      "activity": 0.0132, 
-      "basaliob": -0.443, 
-      "hightempinsulin": 0.1, 
+      "netbasalinsulin": -0.65, 
+      "timestamp": "2016-03-25T05:03:22.000Z", 
+      "activity": 0.012, 
+      "basaliob": -0.322, 
+      "hightempinsulin": 0.2, 
       "bolussnooze": 0, 
-      "iob": 0.173
+      "iob": 0.221
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 1.95, 
+        "rate": 2.15, 
         "temp": "absolute"
       }, 
-      "bg": 123, 
+      "bg": 141, 
       "temp": "absolute", 
-      "snoozeBG": 148, 
-      "timestamp": "2016-03-25T04:53:08.000Z", 
-      "reason": "0.2U meal bolus remaining, Eventual BG 188>=120, temp 1.175<1.97U/hr", 
-      "rate": 1.95, 
-      "eventualBG": 188, 
+      "snoozeBG": 163, 
+      "timestamp": "2016-03-25T05:03:45.000Z", 
+      "reason": "Eventual BG 192>=120, temp 1.95<2.17U/hr", 
+      "rate": 2.125, 
+      "eventualBG": 192, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "On: 100%, 100%, Carbs: 36 Boluses: 2.25 Target: 100 Deviation: 40 BGI: -5.84", 
-      "tick": "+8"
+      "mealAssist": "On: 72%, 72%, Carbs: 36 Boluses: 2.25 Target: 104.2 Deviation: 40 BGI: -4.8", 
+      "tick": "+12"
     }
   }, 
   "mmtune": {
