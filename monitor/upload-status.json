@@ -18,23 +18,21 @@
     "suggested": {
       "bg": 141, 
       "temp": "absolute", 
-      "snoozeBG": 121, 
-      "timestamp": "2016-03-26T11:15:39.000Z", 
-      "rate": 0.45, 
-      "reason": "Eventual BG 121>110 but Avg. Delta -1.00 < Exp. Delta -0.7; setting current basal of 0.45 as temp", 
-      "eventualBG": 121, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 3 BGI: -0.56", 
-      "tick": -1
+      "snoozeBG": 122, 
+      "timestamp": "2016-03-26T11:21:12.000Z", 
+      "reason": "Eventual BG 122>=120, temp 0.45 >~ req 0.47U/hr", 
+      "eventualBG": 122, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 0 BGI: -0.6", 
+      "tick": "+0"
     }, 
     "iob": {
       "netbasalinsulin": 0.3, 
-      "timestamp": "2016-03-26T11:15:38.000Z", 
-      "activity": 0.0014, 
-      "basaliob": 0.293, 
-      "hightempinsulin": 0.55, 
+      "timestamp": "2016-03-26T11:21:11.000Z", 
+      "activity": 0.0015, 
+      "basaliob": 0.235, 
+      "hightempinsulin": 0.5, 
       "bolussnooze": 0, 
-      "iob": 0.293
+      "iob": 0.235
     }, 
     "enacted": {
       "requested": {
