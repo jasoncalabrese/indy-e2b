@@ -7,52 +7,52 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-26T14:10:40.000Z", 
+      "timestamp": "2016-03-26T14:14:06.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 115.125, 
-    "clock": "2016-03-26T07:09:37-07:00"
+    "clock": "2016-03-26T07:12:47-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 89, 
+      "bg": 92, 
       "temp": "absolute", 
-      "snoozeBG": 109, 
-      "timestamp": "2016-03-26T14:11:41.000Z", 
-      "rate": 0.25, 
-      "reason": "Eventual BG 109<110, setting 0.27U/hr", 
-      "eventualBG": 109, 
+      "snoozeBG": 123, 
+      "timestamp": "2016-03-26T14:15:23.000Z", 
+      "rate": 0.55, 
+      "reason": "Eventual BG 123>110 but Avg. Delta 2.00 < Exp. Delta 2.4; setting current basal of 0.57 as temp", 
+      "eventualBG": 123, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -12 BGI: 2.6", 
-      "tick": "+2"
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -4 BGI: 2.6", 
+      "tick": "+3"
     }, 
     "iob": {
-      "netbasalinsulin": -0.85, 
-      "timestamp": "2016-03-26T14:11:40.000Z", 
+      "netbasalinsulin": -0.9, 
+      "timestamp": "2016-03-26T14:15:23.000Z", 
       "activity": -0.0065, 
-      "basaliob": -0.405, 
+      "basaliob": -0.435, 
       "hightempinsulin": 0, 
       "bolussnooze": 0, 
-      "iob": -0.405
+      "iob": -0.435
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.25, 
+        "rate": 0.55, 
         "temp": "absolute"
       }, 
-      "bg": 89, 
+      "bg": 92, 
       "temp": "absolute", 
-      "snoozeBG": 109, 
-      "timestamp": "2016-03-26T14:11:52.000Z", 
-      "reason": "Eventual BG 109<110, setting 0.27U/hr", 
-      "rate": 0.25, 
-      "eventualBG": 109, 
+      "snoozeBG": 123, 
+      "timestamp": "2016-03-26T14:15:44.000Z", 
+      "reason": "Eventual BG 123>110 but Avg. Delta 2.00 < Exp. Delta 2.4; setting current basal of 0.57 as temp", 
+      "rate": 0.55, 
+      "eventualBG": 123, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -12 BGI: 2.6", 
-      "tick": "+2"
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -4 BGI: 2.6", 
+      "tick": "+3"
     }
   }, 
   "mmtune": {
@@ -60,7 +60,7 @@
       [
         "916.540", 
         5, 
-        -73
+        -75
       ], 
       [
         "916.560", 
@@ -70,12 +70,12 @@
       [
         "916.580", 
         5, 
-        -60
+        -61
       ], 
       [
         "916.600", 
         5, 
-        -59
+        -60
       ], 
       [
         "916.620", 
@@ -85,12 +85,12 @@
       [
         "916.640", 
         5, 
-        -59
+        -60
       ], 
       [
         "916.660", 
         5, 
-        -60
+        -61
       ], 
       [
         "916.680", 
@@ -100,16 +100,16 @@
       [
         "916.700", 
         5, 
-        -75
+        -73
       ], 
       [
-        "916.820", 
+        "916.860", 
         1, 
         -97
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-03-26T14:10:22.000Z", 
+    "timestamp": "2016-03-26T14:13:23.000Z", 
     "usedDefault": false
   }
 }
