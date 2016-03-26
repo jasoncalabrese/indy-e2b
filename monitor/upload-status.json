@@ -7,12 +7,12 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-26T13:54:05.000Z", 
+      "timestamp": "2016-03-26T13:57:52.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 115.275, 
-    "clock": "2016-03-26T06:52:50-07:00"
+    "reservoir": 115.25, 
+    "clock": "2016-03-26T06:56:58-07:00"
   }, 
   "openaps": {
     "suggested": {
@@ -57,8 +57,8 @@
     "scanDetails": [
       [
         "916.540", 
-        4, 
-        -80
+        5, 
+        -73
       ], 
       [
         "916.560", 
@@ -98,11 +98,16 @@
       [
         "916.700", 
         5, 
-        -75
+        -76
+      ], 
+      [
+        "916.860", 
+        1, 
+        -97
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-03-26T13:53:24.000Z", 
+    "timestamp": "2016-03-26T13:57:34.000Z", 
     "usedDefault": false
   }
 }
